@@ -1,15 +1,12 @@
-import { useState } from "react";
+interface ButtonProps {
+  count: number;
+  onClick: () => void;
+}
 
-export default function Button() {
-  const [count, setCount] = useState(0);
-
-  function handleClick() {
-    setCount(count + 1);
-  }
-
+export default function Button({ count, onClick }: ButtonProps) {
   return (
     <button
-      onClick={handleClick}
+      onClick={onClick}
       className="
       bg-pink-500
       hover:bg-blue700
