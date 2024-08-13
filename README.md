@@ -19,6 +19,10 @@ ReactJS:
 - JavaScript interpolation - Evaluate JS within JSX
 - Event handling
 
+TypeScript:
+
+- Interfaces
+
 TailwindCSS:
 
 - Preflight styles
