@@ -1,9 +1,12 @@
-interface ButtonProps {
+interface ButtonSharedStateProps {
   count: number;
   onClick: () => void;
 }
 
-export default function Button({ count, onClick }: ButtonProps) {
+export default function ButtonSharedState({
+  count,
+  onClick,
+}: ButtonSharedStateProps) {
   return (
     <button
       onClick={onClick}
